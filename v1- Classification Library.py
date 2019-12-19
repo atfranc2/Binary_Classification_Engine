@@ -87,6 +87,9 @@ def ridge_probs( fitted_model_object, test_data ):
 # In[ ]:
 
 
+
+### This function calculated the area under the ROC curve for the specified models
+
 def auc( cutoff_stat_df ):
     
     areas = [ ]
